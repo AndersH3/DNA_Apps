@@ -1,12 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 
-# Specify output folder as argument(folder is created).
-# multiple files as input, processed separate.
-#
-# Alternative input and output folder(subfolder).
-# Working with list of files
-# Statistics file created in folder
+# Use only with files in ftdna format
+#you can reformat your data with [https://ytree.morleydna.com/extractFromAutosomal]
+#just copy and paste the data from the last step into a file.
+#But do not hand edit the data.
+#If you want to mannualy add some snps add them into a separate file eg extra.txt.
+# Usage python3.6 merge_ydata.py file1.txt file2.txt ... [extra.txt]
+# TODO Statistics file created.
 import sys
 
 
