@@ -1,13 +1,12 @@
 #!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
-
 # Use only with files in ftdna format
 # you can reformat your data with [https://ytree.morleydna.com/extractFromAutosomal]
 # just copy and paste the data from the last step into a file.
 # But do not hand edit the data.
 # If you want to manually add some snps add them into a separate file eg extra.txt.
-# Usage python3.7 merge_ydata.py file1.txt file2.txt ... [extra.txt]
-# T O D O Statistics file created.
+# Usage python3.7 merge_ydata.py file1.txt file2.txt ... extra.txt
+
 
 
 import sys
