@@ -1,7 +1,7 @@
 #!/usr/bin/python3.7
 # -*- coding: utf-8 -*-
 # Usage:
-# python3.7 ./extract.py yseq_data.txt > file.txt
+# python3.7 ./extract.py yseq_data.txt
 #
 
 from random import *
@@ -20,9 +20,11 @@ if __name__ == '__main__':
         lines = input_data_file.readlines()
         for line in lines:
             matches = pattern.search(line)
-            marker = matches.group("Marker")
-            sgn = matches.group("SGN")
-            outfile.write(first + marker + sgn)
-            if first == "":
-                first = ","
+            if matches != None:
+                marker = matches.group("Marker")
+                sgn = matches.group("SGN")
+                if marker != None and marker != None:
+                    outfile.write(first + marker + sgn)
+                    if first == "":
+                        first = ","
     outfile.close()
