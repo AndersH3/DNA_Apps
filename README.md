@@ -1,4 +1,4 @@
-# DNA_Apps
+# DNA Apps
 [![DOI](https://zenodo.org/badge/127520798.svg)](https://zenodo.org/badge/latestdoi/127520798) 
 
 - [merge_ydata.py](http://dna.hellstrom.pw/DNA_Apps/merge_ydata.py ):
