@@ -9,7 +9,7 @@ If you want to manually add some snps add them into a separate file e.g. extra.t
 Usage ``` python3.7 merge_ydata.py file1.txt file2.txt ... extra.txt ```
 
 - Autosomal DNA Converter available at [http://www.y-str.org/2014/09/autosomal-dna-converter-nix.html](http://www.y-str.org/2014/09/autosomal-dna-converter-nix.html). Not mine.
-
+----
 <p xmlns:dct="http://purl.org/dc/terms/">
   <a rel="license"
      href="http://creativecommons.org/publicdomain/zero/1.0/">
@@ -23,3 +23,4 @@ Usage ``` python3.7 merge_ydata.py file1.txt file2.txt ... extra.txt ```
   has waived all copyright and related or neighboring rights to
   <span property="dct:title">DNA Apps</span>.
 </p>
+----
