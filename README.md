@@ -8,12 +8,18 @@ But do not hand edit the data.
 If you want to manually add some snps add them into a separate file e.g. extra.txt.
 Usage ``` python3.7 merge_ydata.py file1.txt file2.txt ... extra.txt ```
 
-
-
-
-
-
-
-
-
 - Autosomal DNA Converter available at [http://www.y-str.org/2014/09/autosomal-dna-converter-nix.html](http://www.y-str.org/2014/09/autosomal-dna-converter-nix.html). Not mine.
+
+<p xmlns:dct="http://purl.org/dc/terms/">
+  <a rel="license"
+     href="http://creativecommons.org/publicdomain/zero/1.0/">
+    <img src="http://i.creativecommons.org/p/zero/1.0/88x31.png" style="border-style: none;" alt="CC0" />
+  </a>
+  <br />
+  To the extent possible under law,
+  <a rel="dct:publisher"
+     href="https://github.com/AndersH3">
+    <span property="dct:title">Anders Hellström</span></a>
+  has waived all copyright and related or neighboring rights to
+  <span property="dct:title">DNA Apps</span>.
+</p>
